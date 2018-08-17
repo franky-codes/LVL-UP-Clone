@@ -1,0 +1,236 @@
+/*Level Up Fitness Stylesheet*/
+.clear {
+    clear: both;
+}
+
+#background {
+    background-attachment: fixed;
+    height: 100px;
+}
+header {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: Lato;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 16px;
+}
+
+li a:hover {
+    color: #f25f5f;
+}
+
+#current-page a {
+    color: #f25f5f;
+}
+
+#logo-tag {
+    width: 500px;
+    position: relative;
+    top: 35px;
+    left: 380px;
+    text-align: center
+    
+}
+
+#logo {
+    width: 300px;
+}
+
+#tag-line {
+    font-family: Lato;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+}
+
+#container {
+    background-color: #303030eb;
+    width: 1050px;
+    height: 1200px;
+    margin: 20px auto;
+    position: relative;
+    top: 60px;
+}
+
+#main-photo {
+    width: 525px;
+    position:absolute;
+    left: 80px;
+    top:70px;      
+}
+
+h1 {
+    background-color: white;
+    color: #f25f5f;
+    font-family: Lato;
+    font-style: italic;
+    font-size: 55px;
+    padding: 0 5px;
+    width: 485px;
+    float: right;
+    position:relative;
+    margin: 100px 100px 20px
+}
+
+h2 {
+    font-family: Lato;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: right;
+    color: white;
+    width: 325px;
+    float: right;
+    position: absolute;
+    left: 625px;
+    top: 200px
+}
+
+#textDiv {
+    width: 300px;
+    color: white;
+    font-family: Lato;
+    position: relative;
+    float:right;
+    top: -875px;
+    right: 215px
+}
+
+#copy {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#callToAction {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    position: relative;
+    top: 15px;
+}
+
+hr {
+    color: #bbb;
+    width: 850px;
+    border-bottom: 1px;
+    border-bottom-color: #bbb;
+    margin: 0 auto;
+    position: relative;
+    top: -700px; 
+}
+
+.button {
+    font-family: Lato;
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #272727;
+    padding: 25px 46px;
+    display:inline-block;
+    position: relative;
+    top: -815px;
+    left: 530px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+#leadMagnet {
+    color: white;
+    font-family: Lato;
+    background-color: #272727;
+    opacity: 0.8;
+    width: 700px;
+    height: 250px;
+    padding: 1px 75px 10px 75px;
+    margin: 0 auto;
+    position: relative;
+    top: -725px;   
+}
+
+h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#signUp {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    top: -10px
+}
+
+#userEmail {
+    font-family: Lato;
+    font-size: 15px;
+    padding: 15px;
+    width: 212px;
+    height: 18px;
+    border: 1px solid 0000001f;
+    margin-right: 5px;
+    display:inline;
+    position: inherit;
+    left: 150px;
+}
+
+#submitButton {
+    color: white;
+    font-family: inherit;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 15px 37.5px;
+    display: inline;
+    cursor: pointer;
+    position: inherit;
+    left: 150px;
+}
+#finePrint {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1.125px;
+    position: relative;
+    top: 20px;
+}
